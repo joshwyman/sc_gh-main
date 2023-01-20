@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Start API Testing Tunnel
     steps:
+      - uses: actions/checkout@v3
       - uses: saucelabs/sauce-connect-action@v2
         with:
           username: '${{ secrets.SAUCE_USERNAME }}'
