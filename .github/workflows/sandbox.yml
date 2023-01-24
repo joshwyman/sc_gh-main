@@ -1,7 +1,6 @@
 name: In Progress Config
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   start_sc_api_tunnel:
